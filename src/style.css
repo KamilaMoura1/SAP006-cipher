@@ -60,7 +60,7 @@ header, #rodape {
 }
 
 .imgSherlock {
-    position: absolute;
+    position: relative;
     left: 80%;
     top: 85%;
     border-radius: 12px;
@@ -121,4 +121,14 @@ header, #rodape {
     border-radius: 500px;
     font-size: 15px;
     padding: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: auto;
+    }
+   section {
+        width: 100%;
+    }
+    
 }

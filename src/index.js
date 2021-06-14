@@ -6,10 +6,10 @@ const btnCifrar = document.getElementById("btnCifrar");
         let deslocamento = Number(document.getElementById("deslocamento").value);
         let mensagem = document.getElementById("mensagem").value;
         const cifrando = cipher.encode(deslocamento, mensagem);
-        document.getElementById("mensagem").value = cifrando;
+            document.getElementById("mensagem").value = cifrando;
     }
 
-            btnCifrar.addEventListener("click", criptarMensagem);
+     btnCifrar.addEventListener("click", criptarMensagem);
 
 const btnDecifrar = document.getElementById("btnDecifrar");
 
@@ -17,8 +17,8 @@ const btnDecifrar = document.getElementById("btnDecifrar");
         let deslocamento = Number(document.getElementById("deslocamento").value);
         let mensagem = document.getElementById("mensagem").value;
         const decifrando = cipher.decode(deslocamento, mensagem);
-        document.getElementById("mensagem").value = decifrando;
+            document.getElementById("mensagem").value = decifrando;
     }
 
-         btnDecifrar.addEventListener("click", decifrarMensagem);
+     btnDecifrar.addEventListener("click", decifrarMensagem);
 
