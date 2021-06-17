@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1 maximum-scale=1" name="viewport">
+  <title>Le Code Secret</title>
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">  
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <header>
+    
+    <section id="cabecalho">
+
+      <div id="root">
+      
+          <h1><img class="imgCabecalho" src="imagens/rodape (2).png" width="225px" height="175px" alt="logo Le Code Secret"> </h1>
+          <h2>Le Code Secret</h2>  
+      </div>
+    
+    </section>
+  
+  </header>
+
+  <main>
+
+    <section class="texto">
+
+      <div class="textoGrande">
+
+        <h2>Bem-vinde ao "Le Code Secret"</h2>
+
+        <p>Um bom mistério vale mais que mil palavras... <i class="em em-face_with_monocle" aria-role="presentation" aria-label="FACE WITH MONOCLE"></i></p><br>
+
+      </div>
+
+      <div class="textoPeq">
+ 
+        <p class="pergunta">Quer se comunicar de forma secreta com aquela pessoa especial?</p>
+
+        <p>Se caso sua resposta seja sim, tenho o modo ideial para ti...</p>
+
+        <p class="pergunta">Vou te contar um pouquinho mais desse método...</p>
+        <p>A cifra de César é uma das técnicas mais antigas de cifrar uma mensagem. É um tipo de cifra por 
+        substituição, em que cada letra do texto original é substituida por outra que se encontra há um número 
+        fixo de posições (deslocamento) mais a frente do mesmo alfabeto.</p> 
+
+        <p class="exemplo">Por exemplo </p>
+        
+        <p class="exemplo">Quero cifrar a palavra  LABORATORIA
+          com um deslocamento de 5, logo, o código para a palavra será: PEFSVEXSVLE</p>
+
+        <p>Com o "Le code Secret" conseguirá criar mensagens secretas ou decifra-las, baseado em um dos primeiros 
+        tipos de criptografia da história, um verdadeiro Sherlock Holmes!</p> 
+
+        <p>Para cifrar ou decifrar o seu texto e transformá-lo numa mensagem secreta,
+         basta preencher os campos abaixo e decidir qual deslocamento ...</p>
+        
+      </div>
+
+      <img class="imgSherlock" src="imagens/img_sherlock.jpg"  width="250px" height="350px" alt="imagem do Sherlock">
+
+    </section>
+
+    <section class="traducao">
+
+      
+      <p class="textoMensagem">Mensagem</p>
+      
+      <input type="text" name="msg" id="mensagem" placeholder="Digite a sua mensagem..." required /><br> <br>
+
+      <p class="textoMensagem">Deslocamento</p>
+
+      <input type="number" id="deslocamento" min="1"><br>
+
+      <input type="submit" value="Cifrar"  id="btnCifrar">
+      <input type="submit" value="Decifrar" id="btnDecifrar">
+    
+    </section>
+
+  </main>
+
+  <footer id="rodape">
+
+    <section id="textoRodape">
+
+      <img class="imgRodape" src="imagens/footprint.png" alt="logo Le Code Secret" width="150px" height="150px">
+      <p class="copyright">&copy; Kamila Moura - Laboratoria 2021</p>
+    
+    </section>
+  
+  </footer>
+ 
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
