@@ -26,7 +26,7 @@ Pessoas que desejam se comunicar se forma secreta e sigilosa, a aplicação perm
 - [Uso de HTML semântico.](https://developer.mozilla.org/pt-BR/docs/Glossario/Semantica#Sem%C3%A2ntica_em_HTML)
 - Uso de seletores de CSS.
 
-**### DOM**
+**DOM**
 
 - Uso de seletores do DOM.
 - Manipular eventos do DOM.
@@ -34,7 +34,7 @@ Pessoas que desejam se comunicar se forma secreta e sigilosa, a aplicação perm
 
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
-**### JavaScript**
+**JavaScript**
 
 - Manipulação de strings.
 - Uso de condicionais (if-else | switch | operador ternário)
